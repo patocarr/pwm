@@ -1,0 +1,8 @@
+Pulse width modulation
+
+This Verilog module generates a pulse width modulated output based on the hi & lo input values.
+
+The pwm_o output asserts when the internal counter 
+matches the hi input value and deasserts when it
+matches the lo input value, restarting a cycle.
+
